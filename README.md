@@ -30,13 +30,28 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+ForEach is used when you have date and you need to comb through it or process it whichout adding new data. 
+Map is used when you want to change and creat new data instead of altering the original date that you already have. 
+
 2. What is the difference between a function and a method?
+
+A function is a group of reusable code which can be called anywhere in your program.
+A method is a function that belongs to an object.
 
 3. What is closure?
 
+Closures are created every time a function is created. A closure gives you access to an outer function's scope from an inner function. 
+
 4. Describe the four rules of the 'this' keyword.
 
+-Window Binding : if none of the other rules apply the this keyword defaults to the window object.
+-Iplicit Binding: when the function is invoked look to the left of the dot and applies to objects with methods.
+-Explicit Binding: occurs when dot notation is used to invoke a function.
+-New Binding: using the new keyword constructs a new object and this points to it. 
+
 5. Why do we need super() in an extended class?
+
+This is allows the use of attributes and methods from the extended class. 
 
 ## Project Set up
 
